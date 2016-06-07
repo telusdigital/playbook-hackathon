@@ -1,0 +1,9 @@
+---
+- connection: local
+  hosts: localhost
+  roles:
+    - role: telusdigital.aws-infrastructure
+  vars:
+    domain: teluswebteam.com
+    required_systems:
+      - database

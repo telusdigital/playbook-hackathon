@@ -1,0 +1,8 @@
+---
+- connection: local
+  hosts: localhost
+  roles:
+    - role: telusdigital.mariadb
+  vars:
+    mariadb_client: yes
+    mariadb_server: yes
