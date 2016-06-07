@@ -1,0 +1,3 @@
+[all:vars]
+project=hackathon
+environment_tier=development

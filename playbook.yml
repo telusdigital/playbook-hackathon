@@ -1,0 +1,10 @@
+---
+- connection: local
+  hosts: localhost
+  roles:
+    - role: telusdigital.auth
+  vars:
+    required_users:
+      - t904690
+    required_sudoers:
+      - t904690
